@@ -14,7 +14,7 @@ ENDIF(VTK_FOUND)
 
 # VTK 5.x components
 if(NOT VTK_FOUND)
-  find_package(VTK QUIET COMPONENTS vtkCommon NO_MODULE)
+  find_package(VTK QUIET COMPONENTS vtkCommon vtkIOGeometry NO_MODULE)
 endif()
 
 if(NOT VTK_FOUND)
